@@ -1,0 +1,2 @@
+# SQL Query Type Mismatch Bug
+This repository demonstrates a common SQL error that occurs due to a type mismatch in the WHERE clause of a query.  The query attempts to compare a string value with an integer column, leading to unexpected results and zero rows being returned. The solution involves ensuring data type consistency between the query's parameters and the database schema.
